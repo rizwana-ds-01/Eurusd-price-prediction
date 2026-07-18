@@ -1,0 +1,29 @@
+{
+  "version": "3.0_UDL_PRODUCTION_CORRECT_ORDER",
+  "creation_date": "2026-02-08T09:14:51.101757",
+  "rows": 9330,
+  "columns": 46,
+  "total_nans": 0,
+  "date_range": {
+    "start": "2019-12-09T20:00:00+00:00",
+    "end": "2025-12-05T20:00:00+00:00"
+  },
+  "costs": {
+    "avg_spread_pips": 0.7902540192926045,
+    "avg_cost_pips": 1.4902540192926044
+  },
+  "events": {
+    "holidays": 342,
+    "news": 402,
+    "extremes": 26
+  },
+  "steps_applied_correct_order": [
+    "1. Fill gap/move NaNs",
+    "2. Recompute D1/W1 FIRST (before spreads!)",
+    "3. Enhance holidays",
+    "4. Refine spreads (after D1/W1 complete)",
+    "5. Validate extremes",
+    "6. Add news flags",
+    "7. Final validation & export"
+  ]
+}

@@ -1,0 +1,19 @@
+id,name,group,bars,bias
+R1,Full Bear Engine,Trend Core,857,SHORT
+R7,Strong Up Normal,Trend Core,1,LONG
+R2,Bear Structure + Bull Momentum,Structure Core,568,LONG
+R5b,HH Strong Bull Filter,Structure Core,121,LONG
+R3,Bear Pullback to Supply,Pullback Core,62,SHORT
+R4a,HL Reversal LONG,Pullback Core,14,LONG
+R8,Demand Zone Strong,Pullback Core,74,LONG
+R9,Supply Zone Strong,Pullback Core,54,SHORT
+R10,D/S Retest LONG,Choppy,149,LONG
+R11,D/S Retest SHORT,Choppy,130,SHORT
+S1,General Choppy Silent,Choppy,2949,BLOCK
+R12,Liquidity Sweep LONG,Liquidity,13,LONG
+R13,Liquidity Sweep SHORT,Liquidity,25,SHORT
+R14,Range Consolidation,Range,0,NEUTRAL
+R15,Range Breakout LONG,Range,155,LONG
+R16,Range Breakout SHORT,Range,309,SHORT
+R17,MTF Bullish Alignment,MTF,1,LONG
+R18,MTF Bearish Alignment,MTF,182,SHORT

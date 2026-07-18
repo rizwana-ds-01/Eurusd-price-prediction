@@ -1,0 +1,23 @@
+{
+  "eda_complete": true,
+  "raw_file": {
+    "path": "EURUSD_Merged_2019_2025.csv",
+    "rows": 11198,
+    "h4_bars": 9330,
+    "issues_found": 11,
+    "critical": 2,
+    "required": 7,
+    "optional": 1
+  },
+  "clean_file": {
+    "path": "EURUSD_UDL_v8_FINAL_CLEAN.csv",
+    "rows": 9330,
+    "columns": 48,
+    "spread_mean": 0.3744,
+    "all_checks_passed": true,
+    "score": "100/100"
+  },
+  "dataset_type": "ICM-Calibrated H4 UDL (Unified Data Layer)",
+  "cleaning_steps": 13,
+  "next_step": "Regime detection (HMM / clustering on vol + session features)"
+}

@@ -1,0 +1,51 @@
+{
+  "total_rows": 11198,
+  "total_cols": 9,
+  "columns": [
+    "time",
+    "open",
+    "high",
+    "low",
+    "close",
+    "tick_volume",
+    "spread",
+    "real_volume",
+    "timeframe"
+  ],
+  "dtypes": {
+    "time": "object",
+    "open": "float64",
+    "high": "float64",
+    "low": "float64",
+    "close": "float64",
+    "tick_volume": "int64",
+    "spread": "int64",
+    "real_volume": "int64",
+    "timeframe": "object"
+  },
+  "nulls_per_column": {
+    "time": 0,
+    "open": 0,
+    "high": 0,
+    "low": 0,
+    "close": 0,
+    "tick_volume": 0,
+    "spread": 0,
+    "real_volume": 0,
+    "timeframe": 0
+  },
+  "timeframe_counts": {
+    "H4": 9330,
+    "D1": 1555,
+    "W1": 313
+  },
+  "memory_mb": 2.04,
+  "price_range": {
+    "open_min": 0.95508,
+    "open_max": 1.23384,
+    "close_min": 0.9551,
+    "close_max": 1.23384
+  },
+  "real_volume_all_zero": true,
+  "spread_zero_pct": 99.96
+}

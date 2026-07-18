@@ -1,0 +1,144 @@
+[
+  {
+    "id": "R1",
+    "name": "Full Bear Engine",
+    "description": "Multi-TF bear alignment with high vol",
+    "priority": 1,
+    "threshold": 11,
+    "bias": "SHORT",
+    "hold_days": "3-5",
+    "best_session": [
+      "london",
+      "overlap"
+    ],
+    "position_size": 0.85,
+    "expected_trades": 150
+  },
+  {
+    "id": "R2",
+    "name": "Bear Structure + Bull Momentum",
+    "description": "Bear structure with bullish reversal momentum",
+    "priority": 2,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold_days": "2-4",
+    "best_session": [
+      "london"
+    ],
+    "position_size": 1.0,
+    "expected_trades": 75
+  },
+  {
+    "id": "R3",
+    "name": "Bear Pullback to Supply",
+    "description": "Pullback to supply zone in downtrend",
+    "priority": 3,
+    "threshold": 12,
+    "bias": "SHORT",
+    "hold_days": "2-4",
+    "best_session": [
+      "ny"
+    ],
+    "position_size": 0.8,
+    "expected_trades": 55
+  },
+  {
+    "id": "R4a",
+    "name": "HL Reversal LONG (Demand Retest)",
+    "description": "HL reversal with demand support",
+    "priority": 4,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold_days": "3-5",
+    "best_session": [
+      "london"
+    ],
+    "position_size": 0.95,
+    "expected_trades": 40
+  },
+  {
+    "id": "R5b",
+    "name": "HH + Strong Bull Filter",
+    "description": "Strong bullish with demand support",
+    "priority": 5,
+    "threshold": 12,
+    "bias": "LONG",
+    "hold_days": "2-4",
+    "best_session": [
+      "london",
+      "overlap"
+    ],
+    "position_size": 0.8,
+    "expected_trades": 30
+  },
+  {
+    "id": "R6",
+    "name": "Normal-Vol Selective Bear",
+    "description": "Bear in normal volatility",
+    "priority": 6,
+    "threshold": 12,
+    "bias": "SHORT",
+    "hold_days": "2-4",
+    "best_session": [
+      "london",
+      "overlap"
+    ],
+    "position_size": 0.8,
+    "expected_trades": 45
+  },
+  {
+    "id": "R7",
+    "name": "Strong_Up_Normal + Bullish Structure",
+    "description": "Strong uptrend in normal vol with demand",
+    "priority": 7,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold_days": "3-5",
+    "best_session": [
+      "london",
+      "overlap"
+    ],
+    "position_size": 1.15,
+    "expected_trades": 40
+  },
+  {
+    "id": "R10",
+    "name": "D/S Retest LONG (Demand Pullback)",
+    "description": "Demand zone retest in low/normal vol",
+    "priority": 10,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold_days": "1-2",
+    "best_session": [
+      "london"
+    ],
+    "position_size": 0.7,
+    "expected_trades": 35
+  },
+  {
+    "id": "R11",
+    "name": "D/S Retest SHORT (Supply Pullback)",
+    "description": "Supply zone retest in low/normal vol",
+    "priority": 11,
+    "threshold": 11,
+    "bias": "SHORT",
+    "hold_days": "1-2",
+    "best_session": [
+      "london"
+    ],
+    "position_size": 0.7,
+    "expected_trades": 30
+  },
+  {
+    "id": "S1",
+    "name": "General Choppy (Silent)",
+    "description": "Block low vol choppy periods",
+    "priority": 99,
+    "threshold": null,
+    "bias": "BLOCK",
+    "hold_days": "0",
+    "best_session": [],
+    "position_size": 0.0,
+    "expected_trades": 0
+  }
+]

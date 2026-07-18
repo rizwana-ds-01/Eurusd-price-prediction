@@ -1,0 +1,53 @@
+{
+  "version": "v8_FINAL_CLEAN",
+  "created": "2026-02-10T16:06:56.772072",
+  "score": "100/100",
+  "rows": 9330,
+  "columns": 48,
+  "only_fix_applied": {
+    "issue": "time column was dtype=object (string, not datetime)",
+    "fix": "df['time'] = pd.to_datetime(df['time'], utc=True)",
+    "lines_changed": 1,
+    "values_changed": 0,
+    "dtype_before": "object",
+    "dtype_after": "datetime64[ns, UTC]"
+  },
+  "d1_w1_recompute": {
+    "d1_method": "groupby floor('D') \u2014 UTC-safe, no to_period",
+    "w1_method": "dayofweek arithmetic + normalize \u2014 UTC-safe, no to_period",
+    "leakage": "None",
+    "max_d1_diff": 0.0,
+    "max_w1_diff": 0.0,
+    "timezone_warnings": 0
+  },
+  "validation": {
+    "time_dtype": true,
+    "timezone_utc": true,
+    "monotonic": true,
+    "no_duplicates": true,
+    "no_nans": true,
+    "ohlc_valid": true,
+    "resample_works": true,
+    "d1_consistent": true,
+    "w1_consistent": true,
+    "walkforward_safe": true
+  },
+  "spread": {
+    "mean_pip": 0.3744,
+    "median_pip": 0.38,
+    "min_pip": 0.09,
+    "max_pip": 1.1,
+    "icm_raw_target": "0.35-0.45 mean"
+  },
+  "time_range": {
+    "first": "2019-12-09 20:00:00+00:00",
+    "last": "2025-12-05 20:00:00+00:00"
+  },
+  "icm_ready": {
+    "Raw_MT4_MT5": "YES",
+    "Raw_cTrader": "YES",
+    "Live": "YES",
+    "Demo": "YES",
+    "UDL": "YES"
+  }
+}

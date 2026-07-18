@@ -1,0 +1,29 @@
+{
+  "H4": {
+    "rows": 9330,
+    "start": "2019-12-09 20:00:00+00:00",
+    "end": "2025-12-05 20:00:00+00:00",
+    "duplicates": 0,
+    "monotonic": true,
+    "normal_gaps": 9012,
+    "abnormal_gaps": 317
+  },
+  "D1": {
+    "rows": 1555,
+    "start": "2019-12-10 00:00:00+00:00",
+    "end": "2025-12-05 00:00:00+00:00",
+    "duplicates": 0,
+    "monotonic": true,
+    "normal_gaps": 1238,
+    "abnormal_gaps": 316
+  },
+  "W1": {
+    "rows": 313,
+    "start": "2019-12-15 00:00:00+00:00",
+    "end": "2025-12-07 00:00:00+00:00",
+    "duplicates": 0,
+    "monotonic": true,
+    "normal_gaps": 312,
+    "abnormal_gaps": 0
+  }
+}

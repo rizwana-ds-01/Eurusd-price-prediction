@@ -1,0 +1,4 @@
+ts,bar,bar_date,price,open,high,low,close,atr,spread,is_news,regime,regime_id,regime_threshold,gmm_p0,gmm_p1,gmm_p2,gmm_p3,hmm_p0,hmm_p1,hmm_p2,hmm_p3,gmm_conf,hmm_conf,size_mult,signal,score,buy_p,sell_p,lr_buy,edge,tp_pip,sl_pip,quality,gate,open_trades,total_pnl,win_rate,daily_loss,trades,avg_ppt,pf
+2026-05-13 00:00:00,1,2026-05-13,1.17341,1.17354,1.17413,1.17315,1.17381,20.7,0.9,0,RANGE_CHOP,2,0.52,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.9,BUY,0.8495,0.879,0.121,0.0,33.3,38.0,16.0,STRONG,ACCEPTED,1,0,0,0.0,0,0,0
+2026-05-13 04:00:00,2,2026-05-13,1.17343,1.17381,1.17418,1.17319,1.17346,20.2,0.8,0,RANGE_CHOP,2,0.52,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.9,BUY,0.8485,0.8769,0.1231,0.0,33.3,38.0,16.0,STRONG,ACCEPTED,1,0,0,0.0,0,0,0
+2026-05-13 04:00:00,1,2026-05-13,1.17108,1.17381,1.17418,1.17319,1.17346,20.2,0.9,0,RANGE_CHOP,2,0.52,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.9,BUY,0.8485,0.8769,0.1231,0.0,33.2,38.0,16.0,STRONG,ACCEPTED,1,0,0,0.0,0,0,0

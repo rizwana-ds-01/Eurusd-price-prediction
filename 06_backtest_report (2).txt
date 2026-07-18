@@ -1,0 +1,25 @@
+============================================================
+UDL ENSEMBLE BACKTEST REPORT
+============================================================
+
+BUY Signals: 371
+  Win rate:    45.0%
+  Avg return:  2.70 pips
+  Median:      -4.65 pips
+  Std:         54.68 pips
+    [STRONG] n=118  WR=45%  Avg=1.4pips
+    [MODERATE] n=253  WR=45%  Avg=3.3pips
+
+SELL Signals: 765
+  Win rate:    50.6%
+  Avg return:  0.68 pips
+  Median:      0.89 pips
+  Std:         42.93 pips
+    [STRONG] n=370  WR=54%  Avg=2.3pips
+    [MODERATE] n=392  WR=48%  Avg=-0.4pips
+
+============================================================
+Regime breakdown (BUY win rate by GMM regime):
+  GMM Regime 0: n= 92  WR=41%
+  GMM Regime 2: n=254  WR=45%
+  GMM Regime 5: n= 13  WR=54%

@@ -1,0 +1,19 @@
+# v18.7 Swing Intraday — Production Requirements
+# Run: D:\conda_envs\forex_prod\python.exe -m pip install -r requirements.txt
+#
+# CRITICAL — do NOT upgrade these:
+#   numpy MUST stay 1.x (2.x breaks pickled sklearn/catboost models)
+#   scikit-learn MUST stay 1.3.x
+#   catboost MUST stay 1.2.x
+#   hmmlearn MUST stay 0.3.0
+
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.3.2
+pandas==2.1.4
+catboost==1.2.7
+lightgbm==4.3.0
+xgboost==2.0.3
+hmmlearn==0.3.0
+streamlit==1.35.0
+MetaTrader5>=5.0.4682

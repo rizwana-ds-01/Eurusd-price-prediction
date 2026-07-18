@@ -1,0 +1,8 @@
+{
+  "normal_gaps": 9013,
+  "weekend_gaps": 307,
+  "holiday_gaps": 9,
+  "mean_price_gap_pips": 0.6436,
+  "max_price_gap_pips": 146.3,
+  "bars_with_gt5pip_gap": 281
+}

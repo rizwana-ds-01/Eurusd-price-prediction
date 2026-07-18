@@ -1,0 +1,42 @@
+{
+  "creation_date": "2026-02-06T10:29:35.671859",
+  "version": "2.0_ICM_PRODUCTION",
+  "rows": 9330,
+  "columns": 44,
+  "date_range": {
+    "start": "2019-12-09T20:00:00+00:00",
+    "end": "2025-12-05T20:00:00+00:00",
+    "duration_days": 2188
+  },
+  "data_quality": {
+    "ohlc_valid": "100%",
+    "time_monotonic": true,
+    "duplicates_removed": 0,
+    "d1_complete_pct": "99.9%",
+    "w1_complete_pct": "99.4%"
+  },
+  "costs": {
+    "spread_realistic": true,
+    "commission_included": true,
+    "avg_cost_pips": 1.3326109324758844,
+    "cost_model": "ICM Raw Spread + $7 commission"
+  },
+  "gaps": {
+    "weekend_gaps": 307,
+    "holiday_gaps": 302,
+    "extreme_moves_100pips": 29
+  },
+  "steps_applied": [
+    "01: Parse & index time correctly (UTC)",
+    "02: Remove duplicate timestamps",
+    "03: Classify time gaps (weekend/holiday/missing)",
+    "04: Validate holidays against forex calendar 2020-2025",
+    "05: Replace unrealistic spread=0 with variable spreads",
+    "06: Fix spread_cost with realistic ICM costs",
+    "07: Validate D1/W1 OHLC fields",
+    "08: Detect extreme moves and outliers",
+    "09: Validate gap size realism",
+    "10: Final consistency assertions",
+    "11: Create metadata and versioned export"
+  ]
+}

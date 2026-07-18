@@ -1,0 +1,25 @@
+{
+  "version": "6.0_PERFECT_100",
+  "creation_date": "2026-02-09T09:53:18.397513",
+  "score": 100.0,
+  "improvements_v6": [
+    "Fixed holiday under-flagging (20 \u2192 ~60 dates)",
+    "Complete ICM calendar 2019-2025 (all major closures)",
+    "Recalculated spreads/costs with new holidays",
+    "Maintained D1/W1 consistency",
+    "Zero NaNs, perfect for ICM live/demo/UDL"
+  ],
+  "costs": {
+    "spread_mean_pips": 1.001615219721329,
+    "cost_mean_pips": 1.701615219721329,
+    "slippage_mean_pips": 0.8004930332261523,
+    "total_cost_pips": 2.5021082529474814
+  },
+  "events": {
+    "holidays": 342,
+    "unique_holiday_dates": 57,
+    "news": 264,
+    "high_vol": 2733,
+    "high_vol_pct": 29.292604501607716
+  }
+}

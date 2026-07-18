@@ -1,0 +1,17 @@
+{
+  "atr14": {
+    "mean": 30.028,
+    "max": 109.286
+  },
+  "returns": {
+    "mean": 0.3735,
+    "std": 21.5949,
+    "skew": 0.0181,
+    "kurtosis": 4.9098
+  },
+  "vol_regimes_pct": {
+    "low": 33.0,
+    "high": 33.0,
+    "extreme": 10.0
+  }
+}

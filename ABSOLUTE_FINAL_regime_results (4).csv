@@ -1,0 +1,20 @@
+id,name,bars,bias,target_wr,improvements
+R1,Full Bear Engine + Liquidity + Pullback,44,SHORT,58,Added liquidity_sweep + pullback_to_zone
+R2,Bear+Bull Momentum + MTF + CHOCH,246,LONG,64,Added mtf_bullish_alignment≥1 + choch_signal
+R3,Supply Pullback + Shallow + Zone,221,SHORT,60,Added shallow depth + pullback_to_zone
+R4a,HL Reversal + Zone Retest + Pullback,24,LONG,72,Added pullback_to_zone
+R5b,HH Bull + CHOCH + MTF,121,LONG,62,Added choch_signal + mtf
+R6,Normal Bear + Vol Pattern (FIXED),251,SHORT,58,"Removed distribution requirement, uses vol pattern"
+R7,Strong Up + Pullback (FIXED),9,LONG,65,"Relaxed conditions, added general pullback"
+R8,Demand Zone Strong + Pullback,74,LONG,66,Added pullback_to_zone
+R9,Supply Zone Strong + Pullback,54,SHORT,65,Added pullback_to_zone
+R10,Demand Retest + Pullback + Depth,58,LONG,65,Added pullback depth
+R11,Supply Retest + Pullback + Depth,42,SHORT,64,Added pullback depth
+R12,Liquidity Sweep LONG (FIXED),1,LONG,62,Relaxed stop_hunt to just liquidity_sweep
+R13,Liquidity Sweep SHORT (FIXED),4,SHORT,61,Relaxed stop_hunt to just liquidity_sweep
+R14,Range Consolidation + Accumulation (FIXED),1,NEUTRAL,54,"Relaxed conditions, uses market_phase"
+R15,Range Breakout LONG (FIXED),121,LONG,59,"Removed strict logic, uses range_break"
+R16,Range Breakout SHORT (FIXED),143,SHORT,58,"Removed strict logic, uses range_break"
+R17,MTF Bullish Alignment (FIXED),48,LONG,66,"Already working, mtf≥1"
+R18,MTF Bearish Alignment,182,SHORT,66,Already working
+S1,Choppy Silent (Selective),2426,BLOCK,0,Allow accumulation phase

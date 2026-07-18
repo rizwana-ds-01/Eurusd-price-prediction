@@ -1,0 +1,11 @@
+id,name,bars,executable,threshold,bias
+R1,Full Bear Engine,343,99,11.0,SHORT
+R2,Bear Structure + Bull Momentum,289,83,11.0,LONG
+R3,Bear Pullback to Supply,44,3,12.0,SHORT
+R4a,HL Reversal LONG (Demand Retest),31,1,11.0,LONG
+R5b,HH + Strong Bull Filter,0,0,12.0,LONG
+R6,Normal-Vol Selective Bear,239,11,12.0,SHORT
+R7,Strong_Up_Normal + Bullish Structure,105,0,11.0,LONG
+R10,D/S Retest LONG (Demand Pullback),183,7,11.0,LONG
+R11,D/S Retest SHORT (Supply Pullback),141,1,11.0,SHORT
+S1,General Choppy (Silent),1161,4,,BLOCK

@@ -1,0 +1,51 @@
+================================================================================
+EURUSD MTF CLEANING LOG - VERSION 2.0 ICM PRODUCTION
+================================================================================
+
+Creation Date: 2026-02-06T10:29:35.671859
+
+STEPS APPLIED:
+--------------------------------------------------------------------------------
+ 1. 01: Parse & index time correctly (UTC)
+ 2. 02: Remove duplicate timestamps
+ 3. 03: Classify time gaps (weekend/holiday/missing)
+ 4. 04: Validate holidays against forex calendar 2020-2025
+ 5. 05: Replace unrealistic spread=0 with variable spreads
+ 6. 06: Fix spread_cost with realistic ICM costs
+ 7. 07: Validate D1/W1 OHLC fields
+ 8. 08: Detect extreme moves and outliers
+ 9. 09: Validate gap size realism
+10. 10: Final consistency assertions
+11. 11: Create metadata and versioned export
+
+================================================================================
+STATISTICS
+================================================================================
+Initial rows: 9,330
+Final rows:   9,330
+Removed:      0
+
+Date range: 2019-12-09T20:00:00+00:00 to 2025-12-05T20:00:00+00:00
+Duration: 2188 days
+
+DATA QUALITY:
+  ohlc_valid: 100%
+  time_monotonic: True
+  duplicates_removed: 0
+  d1_complete_pct: 99.9%
+  w1_complete_pct: 99.4%
+
+COSTS:
+  spread_realistic: True
+  commission_included: True
+  avg_cost_pips: 1.3326109324758844
+  cost_model: ICM Raw Spread + $7 commission
+
+GAPS:
+  weekend_gaps: 307
+  holiday_gaps: 302
+  extreme_moves_100pips: 29
+
+================================================================================
+READY FOR: UDL, Live Trading, Demo Trading
+================================================================================

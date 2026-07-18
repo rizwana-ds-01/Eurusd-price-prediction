@@ -1,0 +1,19 @@
+{
+  "total_rows": 9330,
+  "total_columns": 126,
+  "regimes_defined": 19,
+  "regimes_working": 15,
+  "bars_assigned": 3552,
+  "buy_signals": 371,
+  "sell_signals": 765,
+  "columns_removed": [
+    "interest_rate_us",
+    "interest_rate_eu",
+    "rate_differential",
+    "inflation",
+    "gdp_growth",
+    "year",
+    "month",
+    "llm_sentiment"
+  ]
+}

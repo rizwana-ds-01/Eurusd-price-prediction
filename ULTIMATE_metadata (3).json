@@ -1,0 +1,36 @@
+{
+  "total_rows": 9330,
+  "regimes_assigned": 4830,
+  "clustering_features": [
+    "regime_encoded",
+    "composite_score",
+    "momentum",
+    "vol_percentile",
+    "atr_pips",
+    "mtf_bullish_alignment",
+    "mtf_bearish_alignment",
+    "bos_strength",
+    "pullback_depth",
+    "equal_highs",
+    "equal_lows",
+    "is_pullback",
+    "liquidity_sweep",
+    "is_range",
+    "range_width"
+  ],
+  "regime_mapping": {
+    "R1": 0,
+    "R10": 1,
+    "R11": 2,
+    "R15": 3,
+    "R16": 4,
+    "R2": 5,
+    "R3": 6,
+    "R5b": 7,
+    "R8": 8,
+    "S1": 9,
+    "UNASSIGNED": 10
+  },
+  "buy_signals": 816,
+  "sell_signals": 1205
+}

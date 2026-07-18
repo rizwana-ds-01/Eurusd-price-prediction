@@ -1,0 +1,38 @@
+{
+  "version": "7.0_PERFECT_ICM_SPREAD",
+  "creation_date": "2026-02-10T09:30:43.930972",
+  "score": 100.0,
+  "rows": 9330,
+  "columns": 48,
+  "what_was_fixed_in_v7": [
+    "Normal spread was 0.708 (too high for ICM Raw)",
+    "Reset to session-based realistic base spreads",
+    "Asian 00/04 UTC: base 0.40-0.42 pip",
+    "London 08 UTC: base 0.15 pip",
+    "Overlap 12 UTC: base 0.10 pip (tightest)",
+    "NY close 20 UTC: base 0.55 pip",
+    "Widenins: +0.40 holiday, +0.30 high_vol, +0.70 news",
+    "D1/W1 recomputed after new spreads",
+    "Total cost now 0.8-2.0 pip (ICM Raw realistic)"
+  ],
+  "costs": {
+    "spread_mean_pips": 0.45371382636655944,
+    "normal_spread_pips": 0.3472063058966196,
+    "commission_pips": 0.7,
+    "cost_mean_pips": 1.1537138263665596,
+    "slippage_mean_pips": 0.4045659163987138,
+    "total_cost_pips": 1.5582797427652735
+  },
+  "events": {
+    "holidays": 342,
+    "holiday_dates": 57,
+    "news": 264,
+    "high_vol": 2733,
+    "high_vol_pct": 29.292604501607716
+  },
+  "icm_accounts": {
+    "Raw_Spread_MT4_MT5": "Ready - spread + $7/lot commission modeled",
+    "Raw_cTrader": "Ready - same cost model, tightest spreads",
+    "Standard": "Use with 0.6-1.0 pip higher spreads for Standard account"
+  }
+}

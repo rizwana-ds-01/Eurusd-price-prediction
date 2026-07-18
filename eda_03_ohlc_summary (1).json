@@ -1,0 +1,28 @@
+{
+  "ohlc_validity_all_pass": true,
+  "price_range": {
+    "min": 0.95362,
+    "max": 1.23495
+  },
+  "body_pips": {
+    "mean": 14.839,
+    "median": 10.0,
+    "p95": 45.0
+  },
+  "range_pips": {
+    "mean": 29.926,
+    "median": 24.6,
+    "max": 226.7
+  },
+  "extremes": {
+    "gt50": 1197,
+    "gt100": 108,
+    "gt200": 3
+  },
+  "returns": {
+    "mean": 0.0619,
+    "std": 21.6555,
+    "max": 161.3,
+    "min": -174.7
+  }
+}

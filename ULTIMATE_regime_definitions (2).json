@@ -1,0 +1,182 @@
+[
+  {
+    "id": "R1",
+    "name": "Full Bear Engine",
+    "group": "Trend Core",
+    "priority": 1,
+    "threshold": 11,
+    "bias": "SHORT",
+    "hold": "3-5 days",
+    "size": 0.85
+  },
+  {
+    "id": "R7",
+    "name": "Strong Up Normal",
+    "group": "Trend Core",
+    "priority": 7,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold": "3-5 days",
+    "size": 1.15
+  },
+  {
+    "id": "R2",
+    "name": "Bear Structure + Bull Momentum",
+    "group": "Structure Core",
+    "priority": 2,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold": "2-4 days",
+    "size": 1.0
+  },
+  {
+    "id": "R5b",
+    "name": "HH Strong Bull Filter",
+    "group": "Structure Core",
+    "priority": 5,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold": "2-4 days",
+    "size": 0.8
+  },
+  {
+    "id": "R3",
+    "name": "Bear Pullback to Supply",
+    "group": "Pullback Core",
+    "priority": 3,
+    "threshold": 11,
+    "bias": "SHORT",
+    "hold": "2-4 days",
+    "size": 0.8
+  },
+  {
+    "id": "R4a",
+    "name": "HL Reversal LONG",
+    "group": "Pullback Core",
+    "priority": 4,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold": "3-5 days",
+    "size": 0.95
+  },
+  {
+    "id": "R8",
+    "name": "Demand Zone Strong",
+    "group": "Pullback Core",
+    "priority": 8,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold": "3-5 days",
+    "size": 1.1
+  },
+  {
+    "id": "R9",
+    "name": "Supply Zone Strong",
+    "group": "Pullback Core",
+    "priority": 9,
+    "threshold": 11,
+    "bias": "SHORT",
+    "hold": "3-5 days",
+    "size": 1.05
+  },
+  {
+    "id": "R10",
+    "name": "D/S Retest LONG",
+    "group": "Choppy",
+    "priority": 10,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold": "1-2 days",
+    "size": 0.7
+  },
+  {
+    "id": "R11",
+    "name": "D/S Retest SHORT",
+    "group": "Choppy",
+    "priority": 11,
+    "threshold": 11,
+    "bias": "SHORT",
+    "hold": "1-2 days",
+    "size": 0.7
+  },
+  {
+    "id": "S1",
+    "name": "General Choppy Silent",
+    "group": "Choppy",
+    "priority": 99,
+    "threshold": null,
+    "bias": "BLOCK",
+    "hold": "0 days",
+    "size": 0.0
+  },
+  {
+    "id": "R12",
+    "name": "Liquidity Sweep LONG",
+    "group": "Liquidity",
+    "priority": 12,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold": "1 day",
+    "size": 0.75
+  },
+  {
+    "id": "R13",
+    "name": "Liquidity Sweep SHORT",
+    "group": "Liquidity",
+    "priority": 13,
+    "threshold": 11,
+    "bias": "SHORT",
+    "hold": "1 day",
+    "size": 0.75
+  },
+  {
+    "id": "R14",
+    "name": "Range Consolidation",
+    "group": "Range",
+    "priority": 14,
+    "threshold": 11,
+    "bias": "NEUTRAL",
+    "hold": "Hold",
+    "size": 0.6
+  },
+  {
+    "id": "R15",
+    "name": "Range Breakout LONG",
+    "group": "Range",
+    "priority": 15,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold": "2-4 days",
+    "size": 0.9
+  },
+  {
+    "id": "R16",
+    "name": "Range Breakout SHORT",
+    "group": "Range",
+    "priority": 16,
+    "threshold": 11,
+    "bias": "SHORT",
+    "hold": "2-4 days",
+    "size": 0.9
+  },
+  {
+    "id": "R17",
+    "name": "MTF Bullish Alignment",
+    "group": "MTF",
+    "priority": 17,
+    "threshold": 11,
+    "bias": "LONG",
+    "hold": "3-5 days",
+    "size": 1.2
+  },
+  {
+    "id": "R18",
+    "name": "MTF Bearish Alignment",
+    "group": "MTF",
+    "priority": 18,
+    "threshold": 11,
+    "bias": "SHORT",
+    "hold": "3-5 days",
+    "size": 1.1
+  }
+]

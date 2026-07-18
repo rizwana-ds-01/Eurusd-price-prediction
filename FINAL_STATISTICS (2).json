@@ -1,0 +1,25 @@
+{
+  "total_rows": 9330,
+  "total_columns": 129,
+  "date_range": {
+    "start": "2019-12-09 20:00:00+00:00",
+    "end": "2025-12-05 20:00:00+00:00",
+    "duration_days": 2188
+  },
+  "signals": {
+    "total": 1136,
+    "buy": 371,
+    "sell": 765
+  },
+  "regimes": {
+    "total_regimes": 17,
+    "assigned_bars": 3552,
+    "coverage_pct": 38.070739549839224
+  },
+  "composite_score": {
+    "min": 2.0,
+    "max": 17.0,
+    "mean": 9.886602357984994,
+    "median": 10.0
+  }
+}

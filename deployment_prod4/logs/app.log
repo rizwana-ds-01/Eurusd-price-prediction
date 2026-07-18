@@ -1,0 +1,2 @@
+2026-06-07 04:44:25,566 [ERROR] Model load failed: No module named 'regime_engine'
+2026-06-07 04:44:25,566 [ERROR] Cannot start inference — models not loaded

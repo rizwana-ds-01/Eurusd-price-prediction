@@ -1,0 +1,25 @@
+{
+  "real_volume_all_zero": true,
+  "tick_volume": {
+    "min": 826,
+    "max": 74393,
+    "mean": 11207.0,
+    "median": 9806.0,
+    "zero_bars": 0,
+    "p10": 4096.7,
+    "p90": 20031.4
+  },
+  "spread_raw": {
+    "all_zero_pct": 99.95,
+    "non_zero_count": 5,
+    "value_counts": {
+      "0": 9325,
+      "2": 2,
+      "3": 1,
+      "5": 1,
+      "7": 1
+    }
+  },
+  "low_vol_threshold_p10": 4096.7,
+  "low_vol_bars": 933
+}

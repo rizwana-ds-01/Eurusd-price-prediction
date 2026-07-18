@@ -1,0 +1,26 @@
+# EUR/USD H4 v18.14  —  deployment settings
+mt5:
+  login    : 52869629
+  password : "N&8b1KlvPSepC8"
+  server   : "ICMarketsSC-Demo"
+  symbol   : "EURUSD"
+  timeframe: "H4"
+
+trading:
+  magic        : 1814
+  lot          : 0.10
+  risk_pct     : 1.0       # % of balance per trade
+  threshold    : 0.52       # base signal threshold
+  strong_threshold: 0.60   # trend-follow threshold
+  atr_sl_mult  : 1.5
+  atr_tp_mult  : 2.5
+
+dashboard:
+  host         : "0.0.0.0"
+  port         : 5000
+  refresh_sec  : 10
+
+models:
+  b_scaled  : "models/B_scaled_v6_clean.pkl"
+  d_clusters: "models/D_clusters_v9_.pkl"
+  udl_engine: "models/udl_engine_v3.pkl"

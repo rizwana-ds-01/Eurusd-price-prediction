@@ -1,0 +1,62 @@
+{
+  "version": "8.0_PRODUCTION_PERFECT",
+  "creation_date": "2026-02-10T10:19:31.356145",
+  "score": 100.0,
+  "rows": 9330,
+  "columns": 48,
+  "three_issues_fixed_in_v8": {
+    "issue1_time_dtype": {
+      "problem": "time column was object (string), not datetime",
+      "fix": "pd.to_datetime(df['time'], utc=True) on every load",
+      "result": "datetime64[ns, UTC]"
+    },
+    "issue2_timezone_drop": {
+      "problem": "dt.to_period('W-MON') silently drops UTC timezone",
+      "fix": "Use dayofweek arithmetic + dt.normalize() \u2014 UTC preserved",
+      "result": "Zero timezone warnings. W1 week boundaries UTC-correct."
+    },
+    "issue3_spread_too_high": {
+      "problem": "Normal spread was 0.708 pip; mean was 1.002 pip",
+      "fix": "Session-calibrated ICM Raw base + event widening",
+      "result": "Normal=0.301, mean=0.3744"
+    }
+  },
+  "spread_profile": {
+    "mean_pip": 0.3744,
+    "median_pip": 0.38,
+    "normal_conditions_pip": 0.301,
+    "news_events_pip": 0.8435,
+    "holiday_bars_pip": 0.8111
+  },
+  "costs_icm_raw": {
+    "spread": 0.3744,
+    "commission_per_lot": 0.7,
+    "effective_cost": 1.0744,
+    "slippage_proxy": 0.3106,
+    "total_roundturn": 1.3849,
+    "icm_raw_target_range": "0.8-1.8 pip"
+  },
+  "flags": {
+    "holidays_bars": 342,
+    "holidays_dates": 57,
+    "news_bars": 264,
+    "high_vol_bars": 2733,
+    "high_vol_pct": 29.29
+  },
+  "d1_w1": {
+    "max_d1_diff": 0.0,
+    "method": "UTC-safe resample (no to_period)",
+    "status": "Consistent"
+  },
+  "timezone": {
+    "dtype": "datetime64[ns, UTC]",
+    "tz": "UTC",
+    "to_period_used": false,
+    "timezone_warnings": 0
+  },
+  "icm_accounts_ready": {
+    "Raw_MT4_MT5": "\u2705 READY",
+    "Raw_cTrader": "\u2705 READY",
+    "Standard": "Use +0.6-1.0 pip adjustment for standard account"
+  }
+}
