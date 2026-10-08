@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+deployment_prod4/live_data.json
+deployment_prod4/logs/
+*.log
+.env
