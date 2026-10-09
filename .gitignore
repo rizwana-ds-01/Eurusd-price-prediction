@@ -221,3 +221,8 @@ deployment_prod4/live_data.json
 deployment_prod4/logs/
 *.log
 .env
+
+.env
+*.log
+deployment_prod4/live_data.json
+deployment_prod4/logs/
